@@ -3,6 +3,7 @@
   - [实施计划](#实施计划)
   - [原型业务需求(删减可能)](#原型业务需求删减可能)
   - [相应技术分析](#相应技术分析)
+    - [技术验证的主要问题：](#技术验证的主要问题)
   - [成本估算](#成本估算)
 ## 实施计划
 - sprint 1
@@ -57,4 +58,14 @@ Use Case ①
   - 保存用户个人的所有信息。远程在操控系统一样。
   
 ![Image use_case_1] (https://github.com/alcogol2147/LearningSystemPoc/blob/main/img/use_case_1.png)
+系统构筑
+  - ngix（分发）
+  - spring boot(后台)
+  - python(控制docker)
+  - docker
+
+### 技术验证的主要问题：
+  - docker实现隔离具体要占用多少资源
+  - 方案的极限是多少，就是并发数有多少
+  - 限制并发的通信还是系统资源
 ## 成本估算
