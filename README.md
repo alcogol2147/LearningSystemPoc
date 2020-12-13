@@ -56,4 +56,5 @@ Use Case ①
   - 通过实时系统窗口写代码并且编译执行。因为系统完全就是一个docker image所以执行后的结果应该是完整的效果，不仅仅是console内容还包括对系统本身的影响。
   - 保存用户个人的所有信息。远程在操控系统一样。
   
+![Image use_case_1] (https://github.com/alcogol2147/LearningSystemPoc/blob/main/img/use_case_1.png)
 ## 成本估算
